@@ -35,6 +35,8 @@ def factorize(num):
                 print("{}={}*{}".format(num, num // p, p))
             return
 
+    print("{}={}*{}".format(num, num, 1))
+
 if __name__ == "__main__":
     if len(argv) != 2:
         print("USAGE: factors <file>")
